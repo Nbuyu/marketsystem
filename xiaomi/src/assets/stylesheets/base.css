@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+} /*通用选择器，匹配全部HTML元素*/
+
+body {
+	font-size: 14px;
+	line-height: 1.42986;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+} /*行基线距离*/
+
+/*整个滚动条*/
+::-webkit-scrollbar {
+	width: 3px;
+	height: 10px;
+} /*：：伪元素选择器，加非DOM树的元素，：伪类选择器，加特定状态的样式*/
+
+/*滚动条轨道*/
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: rgba(119, 119, 119, 0.7);
+}
+
+/* 动图加载区域 */
+.el-loading-spinner {
+	top: 200px !important;
+} /*!important 样式优先级最高*/
